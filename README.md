@@ -15,11 +15,13 @@ Utilicé Swagger-UI para tener una mejor experiencia al momento de probar la API
 
 El servicio TextTranslator, traduce de código Morse a texto. Es necesario dejar un espacio(" ") entre letras codificadas y 
 un doble espacio("  ") entre palabras. Ej: .... --- .-.. .-  -- . .-.. ..
+
 URL     ---> https://morse-meli-2019.herokuapp.com/api/morse-translator/morse-to-text/{morse}
 URL Ej. ---> https://morse-meli-2019.herokuapp.com/api/morse-translator/morse-to-text/....%20---%20.-..%20%20.-%20--%20.%20.-..%20..
 
 
 El servicio MorseTranslator, traduce de texto a código Morse
+
 URL     ---> https://morse-meli-2019.herokuapp.com/api/morse-translator/text-to-morse/{text}
 URL Ej. ---> https://morse-meli-2019.herokuapp.com/api/morse-translator/text-to-morse/hola%20meli
 
